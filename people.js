@@ -3,8 +3,8 @@ const allHobbies = require('./hobbies');
 
 function people (){
     return {
-        fullName,
-        allHobbies
+        names: fullName('Michelangelo','Musco'),
+        hobby: allHobbies('music','cinema','videogames')
     }
 };
 
