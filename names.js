@@ -1,10 +1,10 @@
-function fullName (firstName, lastName){
+function names (firstName, lastName){
     return {firstName,lastName}
-}
+};
 
 // const myFirstName = 'Michelangelo';
 // const myLastName = 'Musco';
 
-// console.log(fullName(myFirstName,myLastName));
+// console.log(names(myFirstName,myLastName));
 
-module.exports = fullName;
+module.exports = names;
