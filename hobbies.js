@@ -8,4 +8,4 @@ function hobbies (hobbyOne, hobbyTwo, hobbyThree){
 
 // console.log(hobbies(one,two,three));
 
-module.exports(hobbies);
+module.exports = hobbies;
